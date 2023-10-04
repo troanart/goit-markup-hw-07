@@ -1,0 +1,43 @@
+.job {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.job-list {
+    display: flex;
+    margin-top: 50px;
+}
+
+.job-list__item {
+    display: block;
+
+    &:not(:nth-child(3n)) {
+        margin-right: 30px;
+    }
+}
+
+.img-thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.item__description {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 27px 0 27px 0;
+    text-transform: uppercase;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: rgba(47, 48, 58, 0.80);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--primary-white-color);
+    font-family: var(--main-font-family);
+
+}

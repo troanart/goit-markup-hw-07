@@ -1,0 +1,66 @@
+.portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    &__title {
+        display: none
+    }
+}
+
+
+// work grid
+
+.work {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    &__item {
+        flex-basis: calc((100% - 2 * 30px) / 3);
+    }
+
+    &__name {
+        border-left: 1px solid #EEE;
+        border-bottom: 1px solid #EEE;
+        border-right: 1px solid #EEE;
+        background: var(--primary-white-color);
+        padding: 20px 24px;
+    }
+    
+    &__title {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 2;
+        letter-spacing: 1.08px;
+        margin-bottom: 4px;
+    }
+}
+
+.work__link {
+    color: var(--main-text-color);
+    display: block;
+    transition: box-shadow var(--primary-translate);
+    transform: translatey(0);
+
+    &:hover,
+    &:focus {
+        box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+    }
+}
+
+.card-thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.type__work {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.48px;
+}

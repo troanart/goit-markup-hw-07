@@ -1,0 +1,82 @@
+// icon 
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.socials__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: var(--primary-white-color);
+    border-radius: 50%;
+
+    transition: background-color var(--primary-translate);
+
+    &:hover,
+    &:focus {
+    background-color: var(--accent-color);
+    }
+
+    &--dark {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        background-color: rgba(255, 255, 255, 0.10);
+        border-radius: 50%;
+    
+        transition: background-color var(--primary-translate);
+    }
+
+    &--dark:hover,
+    &--dark:focus {
+        background-color: var(--accent-color);
+    }
+
+}
+
+
+.socials__icon {
+    fill: #AFB1B8;
+
+    transition: fill var(--primary-translate);
+
+    .socials__link:focus &,
+    .socials__link:hover & {
+        fill: var(--primary-white-color);
+    }
+
+    &--dark {
+    fill: var(--primary-white-color);
+    }
+}
+
+
+
+
+// dark icon  
+
+.socials-box {
+    margin-left: 94px;
+
+    &__title {
+        color: var(--primary-white-color);
+        margin-top: 0px;
+    }
+}
+
+.socials__list--dark {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+

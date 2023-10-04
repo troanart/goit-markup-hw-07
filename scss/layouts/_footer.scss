@@ -1,0 +1,39 @@
+.footer {
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &__container {
+        display: flex;
+        align-items: baseline;
+    }
+}
+
+.address {
+    margin-top: 28px;
+
+    &__item {
+        width: 100%;
+    }
+
+    &__item:not(:last-child) {
+        margin-bottom: 12px;
+    }
+    
+    &__link {
+        color: var(--primary-white-color);
+        font-family: var(--main-font-family);
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.42px;
+
+    }
+}
+
+.address-cont__link {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: var(--main-font-family);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}

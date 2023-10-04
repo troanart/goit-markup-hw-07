@@ -1,0 +1,40 @@
+.peculiarities {
+    padding-top: 94px;
+
+    &__text {
+        color: var(--primary-text-color);
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.42px;
+        margin-top: 10px;
+    }
+}
+
+.pec-list {
+    display: flex;
+}
+
+.peculiarities__item {
+    width: 270px;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.pec-item__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}
+
+.pec__icon {
+    --color1: #212121;
+    --color2: #2196f3;
+}
+
